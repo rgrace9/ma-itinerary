@@ -1,0 +1,38 @@
+.nav {
+  background-color: green;
+  &:hover:not(:hover) {
+    color: #241c69;
+  }
+  &__list {
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  &__group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__link {
+    display: block;
+    padding: 2rem 1.5rem;
+
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+    // &:focus {
+    //   outline: 2px solid #fff;
+    // }
+  }
+}
