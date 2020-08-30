@@ -1,3 +1,29 @@
+.autocomplete-container {
+  width: 100%;
+}
+
 .autocomplete {
+  width: 100%;
   padding: 12px;
+
+  &__no-options {
+    color: white;
+  }
+
+  &__options {
+    display: block;
+    list-style: none;
+    width: 30rem;
+    transition: width 0.3s;
+    margin: auto;
+    position: relative;
+  }
+
+  &__option {
+    &--active {
+      background: whitesmoke;
+      font-size: 1.5rem;
+      color: #00b4cc;
+    }
+  }
 }
