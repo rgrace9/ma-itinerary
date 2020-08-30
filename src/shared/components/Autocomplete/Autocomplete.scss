@@ -17,6 +17,9 @@
     transition: width 0.3s;
     margin: auto;
     position: relative;
+    max-height: 140px;
+    overflow-y: scroll;
+    background: aquamarine;
   }
 
   &__option {
